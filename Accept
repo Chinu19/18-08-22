@@ -1,0 +1,22 @@
+package java_practicals;
+
+public class Accept {
+
+	public Accept (int[]a1,String name)
+	{
+		int per,sum=0;
+		for(int i=0;i<a1.length;i++)
+		{
+			sum+=a1[i];
+		}
+		per=(sum*100/500);
+		System.out.println("Name is:"+name);
+		System.out.println("Percentage is:"+per);
+	}
+   public Accept(int acc_no,int bal,int year)
+   {
+	   System.out.println("your account no. is"+acc_no);
+	   System.out.println("your balance before intrest is:"+bal);
+	   System.out.println("your balance after intrest is applied"+(bal*2.0*3));
+   }
+}
